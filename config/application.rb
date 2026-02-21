@@ -10,7 +10,7 @@ class OrigenLlmApplication < Origen::Application
   config.name     = 'origen_llm'
   config.initials = 'OrigenLlm'
   # Change this to point to the revision control repository for this plugin
-  config.rc_url   = "git@github.com:Origen-SDK/origen_llm.git"
+  config.rc_url   = 'git@github.com:Origen-SDK/origen_llm.git'
 
   # To enable deployment of your documentation to a web server (via the 'origen web'
   # command) fill in these attributes.
