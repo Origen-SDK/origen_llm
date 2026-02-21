@@ -2,8 +2,6 @@ PATH
   remote: .
   specs:
     origen_llm (0.1.1)
-      origen (>= 0.60.20)
-      origen_app_generators (>= 0.60.20)
 
 GEM
   remote: https://rubygems.org/
@@ -70,8 +68,6 @@ GEM
       simplecov-html (~> 0.10)
       thor (~> 0.19)
       yard (~> 0.8)
-    origen_app_generators (2.2.0)
-      origen (>= 0.40.2)
     origen_doc_helpers (0.8.6)
       origen (>= 0.7.15)
     parallel (1.24.0)
