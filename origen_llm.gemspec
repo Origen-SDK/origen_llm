@@ -24,9 +24,7 @@ Gem::Specification.new do |spec|
   spec.executables   = []
   spec.require_paths = ["lib", "app/lib"]
 
-  # Add any gems that your plugin needs to run within a host application
-  spec.add_runtime_dependency "origen", ">= 0.60.20"
-  
+  # Add any gems that your plugin needs to run within a host application  
   spec.add_runtime_dependency "origen_app_generators", ">= 2.2.0"
     
   # DO NOT ADD ANY ADDITIONAL RUNTIME DEPENDENCIES HERE, WHEN THESE GENERATORS
